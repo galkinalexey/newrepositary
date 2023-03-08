@@ -60,6 +60,8 @@ public class Main {
         }
 
     }
+
+    // Метод калькулятора, который выполняет основные действия: сложение, вычитание, умножение, деление
     static int calc(int a, int b, String sign) {
         switch (sign) {
             case "+" -> {
